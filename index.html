@@ -38,6 +38,13 @@
           <li><a href="#tabOptions" data-toggle="tab"><span class="glyphicon glyphicon-cog"></span> Options</a></li>
         </ul>
         <!-- /.nav.navbar-nav -->
+        <div class="navbar-form navbar-right language-selector">
+          <label for="language">Language</label>
+          <select id="language" class="form-control" aria-label="Choose language" data-no-i18n>
+            <option value="en">English</option>
+            <option value="zh-CN">简体中文</option>
+          </select>
+        </div>
       </div>
       <!-- /.navbar-collapse -->
     </div>
@@ -48,7 +55,7 @@
     <div class="row">
       <div class="col-md-12 text-center">
         <h1>Dark&nbsp;Souls&nbsp;3 Cheat&nbsp;Sheet</h1>
-        <p class="lead">Contribute to the guide at the <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet">GitHub Page</a></p>
+        <p class="lead">Contribute to the guide at the <a href="https://github.com/lwDavid/dark-souls-3-cheat-sheet">GitHub Page</a></p>
       </div>
     </div>
 
@@ -2701,7 +2708,7 @@
         <p>This guide has evolved thanks to the many <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet/graphs/contributors">GitHub contributors</a> with many great suggestions, fixes and improvements!</p>
 
         <h3>I have feedback, how can I contribute?</h3>
-        <p>You can visit the <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet">GitHub repository</a> and <a href="https://github.com/ZKjellberg/dark-souls-3-cheat-sheet/issues">report Issues</a> or create a fork and submit a Pull Request.</p>
+        <p>You can visit the <a href="https://github.com/lwDavid/dark-souls-3-cheat-sheet">GitHub repository</a> and <a href="https://github.com/lwDavid/dark-souls-3-cheat-sheet/issues">report Issues</a> or create a fork and submit a Pull Request.</p>
 
         <h3>Is this a guide?</h3>
         <p>Nope, not really. This is a set of checklists and information that you can use while playing Dark Souls to make sure you don't miss an item, action, conversation, or boss. If you need playthroughs then you can click on the zone titles to read the wiki walkthrough.</p>
@@ -2733,7 +2740,7 @@
               <span class="input-group-btn">
                 <button class="btn btn-default" type="button" id="profileAdd">Add</button>
                 <button class="btn btn-default" type="button" id="profileEdit">Edit</button>
-                <button class="btn btn-default" type="button" id="profileNG+">NG+</button>
+                <button class="btn btn-default" type="button" id="profileNG+">Next journey</button>
               </span>
             </form>
           </div>
@@ -2820,10 +2827,12 @@
   <a class="btn btn-default btn-sm fadingbutton back-to-top">Back to Top&thinsp;<span class="glyphicon glyphicon-arrow-up"></span></a>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="https://cdn.rawgit.com/andris9/jStorage/v0.4.12/jstorage.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/andris9/jStorage@v0.4.12/jstorage.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jets/0.8.0/jets.min.js"></script>
   <script src="js/jquery.highlight.js"></script>
+  <script src="js/locales/zh-CN.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
