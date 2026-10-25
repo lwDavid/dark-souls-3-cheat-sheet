@@ -2,9 +2,9 @@
 
 [简体中文说明](README.zh-CN.md)
 
-This fork adds English / Simplified Chinese switching, including all 1,953 checklist entries, the base game and both DLCs, navigation, search, profile dialogs, completion labels and import/export messages. Existing checklist IDs and saved profiles remain compatible.
+The checklist supports English / Simplified Chinese switching, including all 1,953 checklist entries, the base game and both DLCs, navigation, search, profile dialogs, completion labels and import/export messages. Existing checklist IDs and saved profiles remain compatible.
 
-Run `node tests/server.cjs` and open <http://127.0.0.1:8080/?lang=zh-CN> for Chinese or <http://127.0.0.1:8080/?lang=en> for English. No build step is needed. The page still uses the upstream project's pinned CDN dependencies, so an Internet connection is required for those assets. The original English demo is [available upstream](https://zkjellberg.github.io/dark-souls-3-cheat-sheet/).
+To view the cheat sheet [click here](https://zkjellberg.github.io/dark-souls-3-cheat-sheet/). For local use, run `node tests/server.cjs` and open <http://127.0.0.1:8080/?lang=zh-CN> for Chinese or <http://127.0.0.1:8080/?lang=en> for English. No build step is needed. The page uses pinned CDN dependencies, so an Internet connection is required for those assets.
 
 This checklist was created by adopting the source code from the [Dark Souls 2 Cheat Sheet](https://github.com/smcnabb/dark-souls-2-cheat-sheet/tree/gh-pages) created by [Stephen McNabb](https://github.com/smcnabb).
 

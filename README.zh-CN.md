@@ -1,6 +1,6 @@
 # 黑暗之魂 3 全收集清单
 
-此分支为 [ZKjellberg/dark-souls-3-cheat-sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet) 增加简体中文支持，保留英文版本与原有勾选进度格式。
+[Dark Souls 3 Cheat Sheet](https://github.com/ZKjellberg/dark-souls-3-cheat-sheet) 支持简体中文与英文，保留原有勾选进度格式。
 
 中文覆盖本体、《艾雷德尔之烬》和《环印城》的全部 1,953 个清单条目，包括流程、成就、武器、盾牌、防具和鸟巢交换；导航、筛选、搜索、设置、档案弹窗、完成状态、确认提示和导入错误提示也支持中文。外部 Wiki 链接仍指向原攻略使用的英文页面。
 
